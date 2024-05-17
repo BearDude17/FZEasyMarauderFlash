@@ -1,7 +1,7 @@
 #!/bin/python3
 import os
 import platform
-from git import Repo
+from git import Repo # type: ignore
 import glob
 import time
 import shutil
