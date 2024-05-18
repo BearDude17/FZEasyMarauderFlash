@@ -5,13 +5,13 @@ from git import Repo # type: ignore
 import glob
 import time
 import shutil
-import serial.tools.list_ports
-import requests
+import serial.tools.list_ports # type: ignore
+import requests # type: ignore
 import json
-import esptool
-from colorama import Fore, Back, Style
+import esptool # type: ignore
+from colorama import Fore, Back, Style # type: ignore
 from pathlib import Path
-import git
+import git # type: ignore
 import argparse
 
 parser=argparse.ArgumentParser()
